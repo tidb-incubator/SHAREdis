@@ -1,6 +1,5 @@
 #
 # Makefile
-# yongman, 2018-04-17 15:05
 #
 
 all: build
