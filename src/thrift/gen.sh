@@ -1,0 +1,1 @@
+thrift-0.14.0 -r --allow-64bit-consts --gen go sharestore.thrift
