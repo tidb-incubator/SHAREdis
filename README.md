@@ -21,3 +21,10 @@ Current list of supported commands:
 | hash | hdel |
 | hash | hmset |
 | hash | hmget |
+| zset | zadd |
+| zset | zscore |
+| zset | zrem |
+| zset | zrange |
+| zset | zrangebyscore |
+| zset | zcard |
+| zset | zscan |
