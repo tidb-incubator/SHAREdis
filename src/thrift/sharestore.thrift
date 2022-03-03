@@ -35,7 +35,7 @@ enum StoreType {
 
 const i32 DEFAULT_MAX_NUMS = 5000
 
-typedef binary (cpp.type = "std::unique_ptr<folly::IOBuf>") IOBufPtr
+typedef binary IOBufPtr
 
 # Get
 struct GetRequest {
