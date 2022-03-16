@@ -72,6 +72,7 @@ TiKV value:
 | content | score |
 
 ### Current list of supported commands:
+**Currently, sharedis interacts with clients using the thrift-based rpc protocol, which will be replaced with the Redis protocol in the future**
 
 | Redis Command Groups | Redis Commands |
 | ------- | ------- |
