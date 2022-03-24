@@ -460,43 +460,7 @@ func (s *CmdHandler) MultiHashGetValue(ctx context.Context, request *MultiHashGe
 
 // Parameters:
 //  - Request
-func (s *CmdHandler) HashIncrValue(ctx context.Context, request *HashIncrRequest) (*HashIncrResponse, error) {
-	return nil, nil
-}
-
-// Parameters:
-//  - Request
 func (s *CmdHandler) HashCountValue(ctx context.Context, request *HashCountRequest) (*HashCountResponse, error) {
-	return nil, nil
-}
-
-// Parameters:
-//  - Request
-func (s *CmdHandler) HashExSetValue(ctx context.Context, request *HashExSetRequest) (*HashExSetResponse, error) {
-	return nil, nil
-}
-
-// Parameters:
-//  - Request
-func (s *CmdHandler) HashExRemValue(ctx context.Context, request *HashExRemRequest) (*HashExRemResponse, error) {
-	return nil, nil
-}
-
-// Parameters:
-//  - Request
-func (s *CmdHandler) HashExGetValue(ctx context.Context, request *HashExGetRequest) (*HashExGetResponse, error) {
-	return nil, nil
-}
-
-// Parameters:
-//  - Request
-func (s *CmdHandler) HashExIncrValue(ctx context.Context, request *HashExIncrRequest) (*HashExIncrResponse, error) {
-	return nil, nil
-}
-
-// Parameters:
-//  - Request
-func (s *CmdHandler) HashExCountValue(ctx context.Context, request *HashExCountRequest) (*HashExCountResponse, error) {
 	return nil, nil
 }
 
