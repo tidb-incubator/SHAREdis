@@ -1,4 +1,29 @@
+## SHAREdis
 SHAREdis hopes to encapsulate and expand the key-value interface of TiKV on top of the advantages of TiKV, and use the Redis client protocol to implement Redis data types and interface operations, while shielding the complex cluster management inside the distributed system, Data synchronization operation, thereby providing a distributed SSD cache computing layer service that can replace/supplement Redis.
+
+### Getting Started
+#### Dependency
+- [Go1.13(for compiling)]
+- [Python2(for testing)]
+
+#### Installing
+1. compile
+```
+cd src
+make
+```
+
+2. run server
+```
+cd bin
+./sharedis --conf ../conf/config.toml
+``` 
+
+### Run tests
+```
+cd src/test
+python kv.py
+```
 
 ### Architecture diagram:
 
@@ -101,3 +126,14 @@ TiKV value:
 | zset | zcard |
 | zset | zscan |
 
+### Contributing
+Please read [CONTRIBUTING](./CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
+
+### Authors
+* **[vortex0305](https://github.com/vortex0305)** - *Initial work*
+* **[daimashusheng](https://github.com/daimashusheng)** - *Initial work*
+
+See also the list of [contributors](https://github.com/tidb-incubator/SHAREdis/contributors) who participated in this project.
+
+### License
+This project is licensed under the MIT License - see the [LICENSE](./LICENSE) file for details
